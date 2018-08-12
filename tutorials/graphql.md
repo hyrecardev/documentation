@@ -14,11 +14,11 @@ $ git clone https://gitlab.com/hyrecar-dev/backend-v2/services.git
 We currently use [gitlab](https://gitlab.com) for version control. Access to the repository can be provided by Abhi
 {% endhint %}
 
-Once you've cloned repo locally, rename the `.env.sample` file to `.env]`
+Once you've cloned repo locally, copy the `.env.sample` file and name it `.env`
 
 {% code-tabs %}
 {% code-tabs-item title=".env.sample" %}
-```text
+```bash
 GRAPHQL_ENABLE_MOCKS=false
 GRAPHQL_STAGE=dev
 GRAPHQL_PRISMA_BASE_URL=https://hyrecar-core_hyrecar.prisma.sh
@@ -29,7 +29,7 @@ GRAPHQL_MGMT_AUTH0_CLIENT_SECRET=8WkouXbis288IyhoF18ZJvRa4S9OQ29yc5uM1wf9NEI_eok
 GRAPHQL_STRIPE_SECRET_KEY=sk_test_NWkDuiMJYnzIlckWpy1gdVVs
 GRAPHQL_S3_SECRET_ACCESS_KEY=1V6PjyVseL/WbLMfDVdKUDIljoF7EORSFYn9KH/f
 GRAPHQL_EVENT_GATEWAY_URL=https://hyrecar-hyrecardev.slsgateway.com
-GRAPHQL_CHECKR_API_KEY="ZDFjMTBmMWU1NDUxZmI4ZWFiMDBjMzcwYTE0ZDk3NGU1MmYyZTJjYTo="
+GRAPHQL_CHECKR_API_KEY=ZDFjMTBmMWU1NDUxZmI4ZWFiMDBjMzcwYTE0ZDk3NGU1MmYyZTJjYTo=
 GRAPHQL_DISABLE_ENGINE=false
 ```
 {% endcode-tabs-item %}
@@ -71,13 +71,19 @@ To learn more about this, check out this post here
 
 Now that we have the server running, we probably want to make changes to it.
 
-Whenever we make changes to the gateway service, webpack will automatically recompile. However, we need to perform one additional step ff we want to make changes to the users service for example. In a new terminal window, we need to run:
+Whenever we make changes to the gateway service, webpack will automatically recompile them. However, we need to perform one additional step if we want to make changes to the users service for example. In a new terminal window, we need to run:
 
 ```bash
 $ yarn prepare --scope @services/users
 ```
 
+{% hint style="info" %}
+We could also run \`yarn dev --scope @services/users\`, but this will cause a compile loop. We are looking into ways to fix this so we have a better developer experience.
+{% endhint %}
+
 ## Step 5: Start Exploring!
 
-Once you've got your server up and running, you can start making running graphql requests from any graphql IDE!
+Once you've got your server up and running, you can start running graphql requests from any graphql IDE!
+
+{% page-ref page="../useful-tools/graphql-ides.md" %}
 
