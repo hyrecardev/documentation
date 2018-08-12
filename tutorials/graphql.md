@@ -57,7 +57,7 @@ To learn more about this, check out this post here
 
 Well, now that we have the repo installed, the environment setup, and our dependencies loaded and ready to go, there's only one thing left!
 
-```text
+```bash
 $ yarn dev --scope @deployments/gateway
 ```
 
@@ -67,7 +67,17 @@ This particular script compiles our graphql gateway via a webpack compiler.
 To learn more about this, check out this post here
 {% endhint %}
 
-## Step 4: Start Exploring!
+## Step 4: Making changes
+
+Now that we have the server running, we probably want to make changes to it.
+
+Whenever we make changes to the gateway service, webpack will automatically recompile. However, we need to perform one additional step ff we want to make changes to the users service for example. In a new terminal window, we need to run:
+
+```bash
+$ yarn prepare --scope @services/users
+```
+
+## Step 5: Start Exploring!
 
 Once you've got your server up and running, you can start making running graphql requests from any graphql IDE!
 
