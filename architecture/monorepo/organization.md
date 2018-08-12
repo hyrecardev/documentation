@@ -23,6 +23,8 @@ The directories which are named by business function are self-contained graphql 
 const user = await context.users.query.user( { where: { id: userId, }, }, "{ id firstName }", { context } ) 
 ```
 
+{% page-ref page="../../concepts/graphql-bindings.md" %}
+
 ### Gateway
 
 The gateway is our API server. It is the glue which binds all of the other services together. It determines how, say, the users schema relates to the files schema. We use what is called schema stitching to accomplish this.
