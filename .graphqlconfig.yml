@@ -1,0 +1,11 @@
+projects:
+  public:
+    schemaPath: schemas/public.graphql
+    extensions:
+      endpoints:
+        default: https://api.hyrecar.com
+  internal:
+    schemaPath: schemas/internal.graphql
+    extensions:
+      endpoints:
+        default: https://internal-api.hyrecar.com
