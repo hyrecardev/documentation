@@ -1,9 +1,3 @@
----
-description: >-
-  Welcome to HyreCar's GraphQL API Docs. We hope this will help kickstart your
-  development adventures into the magical world of HyreCar's backend!
----
-
 # HyreCar's GraphQL API
 
 An overview of GraphQL and best practices:

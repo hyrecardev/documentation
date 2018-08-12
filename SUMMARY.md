@@ -13,5 +13,5 @@
   * [GraphQL IDEs](useful-tools/graphql-ides.md)
 * [Tutorials](tutorials/README.md)
   * [Installing other packages from the monorepo](tutorials/installing-other-packages-from-the-monorepo.md)
-* [Schemas](schemas/README.md)
-  * [Public](schemas/public.md)
+  * [Extending the schema](tutorials/extending-the-schema.md)
+

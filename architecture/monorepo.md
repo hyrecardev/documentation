@@ -1,9 +1,3 @@
----
-description: >-
-  We opted for using a monorepo and deploying all of the api code together in a
-  single, horizontally scalable server.
----
-
 # Monorepo
 
 This approach provide us the modularity we need to develop across a growing team, but also eliminates the networking overhead there would have been if each service is deployed independently.

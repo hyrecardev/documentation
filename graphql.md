@@ -6,7 +6,7 @@ description: 'In this quickstart, you''ll learn how get HyreCar''s GraphQL API u
 
 ## Step 1: Clone the Repo
 
-```
+```text
 $ git clone https://gitlab.com/hyrecar-dev/backend-v2/services.git
 ```
 
@@ -18,7 +18,7 @@ Once you've cloned repo locally, rename the `.env.sample` file to `.env]`
 
 {% code-tabs %}
 {% code-tabs-item title=".env.sample" %}
-```
+```text
 GRAPHQL_ENABLE_MOCKS=false
 GRAPHQL_STAGE=dev
 GRAPHQL_PRISMA_BASE_URL=https://hyrecar-core_hyrecar.prisma.sh
@@ -47,7 +47,7 @@ Our repo requires yarn workspaces, so please use **yarn** over npm!
 $ yarn
 ```
 
-You'll notice that after installing all of our npm package dependencies, that script will also begin to execute some custom scripts. These scripts are essentially packaging up each service \(i.e cars, rentals, and etc.\) into dependencies for our gateway to stitch together and serve. 
+You'll notice that after installing all of our npm package dependencies, that script will also begin to execute some custom scripts. These scripts are essentially packaging up each service \(i.e cars, rentals, and etc.\) into dependencies for our gateway to stitch together and serve.
 
 {% hint style="info" %}
 To learn more about this, check out this post here
@@ -70,6 +70,4 @@ To learn more about this, check out this post here
 ## Step 4: Start Exploring!
 
 Once you've got your server up and running, you can start making running graphql requests from any graphql IDE!
-
-
 

@@ -1,10 +1,3 @@
----
-description: >-
-  There are a number of different GraphQL IDEs out there for running GraphQL
-  requests. This article will go through GraphQL IDEs that are supported out of
-  the box & will require extended configuration
----
-
 # GraphQL IDEs
 
 ## Desktop IDEs
