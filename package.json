@@ -9,6 +9,7 @@
   "private": true,
   "dependencies": {
     "@2fd/graphdoc": "^2.4.0",
-    "graphql-cli": "^2.16.5"
+    "graphql-cli": "^2.16.5",
+    "graphql-markdown": "^4.1.0"
   }
 }
