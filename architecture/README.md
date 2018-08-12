@@ -2,7 +2,7 @@
 description: An overview of our GraphQL API stack
 ---
 
-# Architecture
+# Introduction
 
 We highly recommend reading more about GraphQL and some of the best practices outlined by the apollo team:
 

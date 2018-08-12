@@ -2,7 +2,7 @@
 
 * [HyreCar's GraphQL API](README.md)
 * [Quick Start](graphql.md)
-* [Architecture](architecture/README.md)
+* [Introduction](architecture/README.md)
   * [Monorepo](architecture/monorepo.md)
   * [Graphql Server \(graphql-yoga/apollo-server\)](architecture/graphql-server-graphql-yoga-apollo-server.md)
   * [Authentication](architecture/authentication.md)
