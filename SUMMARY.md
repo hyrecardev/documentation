@@ -9,6 +9,7 @@
   * [Authentication \(Auth0\)](architecture/authentication.md)
   * [Databases \(Prisma\)](architecture/databases-prisma.md)
   * [Apollo Engine](https://www.apollographql.com/docs/engine/)
+  * [CI/CD](architecture/ci-cd.md)
 * [Concepts](concepts/README.md)
   * [Schema Stitching](concepts/schema-stitching.md)
   * [Graphql Bindings](concepts/graphql-bindings.md)
