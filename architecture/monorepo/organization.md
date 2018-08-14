@@ -17,7 +17,7 @@ The services directory is intended for API code. This is where we keep the packa
 
 ### Users, Cars, Rentals, etc.
 
-The directories which are named by business function are self-contained graphql schemas. Each of these services have their own database configured via the prisma graphql layer and a schema which extends the database. Each service generate a graphql binding and provides a typed SDK to be used by the gateway. Graphql bindings are what enable us to do this:
+The directories which are named by business function are self-contained graphql schemas. Each of these services have their own database configured via the prisma graphql layer and a schema which extends the database. Each service generates a graphql binding and provides a typed SDK to be used by the gateway. Graphql bindings are what enable us to do this:
 
 ```typescript
 const user = await context.users.query.user( { where: { id: userId, }, }, "{ id firstName }", { context } ) 
