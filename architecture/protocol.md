@@ -58,7 +58,7 @@ You can also continue to push to your branch in light of discussion and feedback
 
 Merge Request comments are written in Markdown, so you can embed images and emoji, use pre-formatted text blocks, and other lightweight formatting.
 
-## Step 5: Deploy
+## Step 5: Deploy and test
 
 With GitLab, you can deploy from your branch for testing in staging before merging to master.
 
