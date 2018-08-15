@@ -6,7 +6,7 @@ We highly recommend reading more about GraphQL and some of the best practices ou
 
 =
 
-![Visual Representation of GraphQL API](../.gitbook/assets/hyrecar-graphql-architecture%20%283%29.png)
+![Visual Representation of GraphQL API](../.gitbook/assets/hyrecar-graphql-architecture%20%281%29.png)
 
 
 
