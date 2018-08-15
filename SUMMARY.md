@@ -6,7 +6,7 @@
     * [Motivation](architecture/monorepo/motivation.md)
     * [Organization](architecture/monorepo/organization.md)
   * [Graphql Server \(graphql-yoga/apollo-server\)](architecture/graphql-server-graphql-yoga-apollo-server.md)
-  * [Authentication \(Auth0\)](architecture/authentication.md)
+  * [Authentication Flow](architecture/authentication.md)
   * [Databases \(Prisma\)](architecture/databases-prisma.md)
   * [Apollo Engine](https://www.apollographql.com/docs/engine/)
   * [CI/CD](architecture/ci-cd.md)

@@ -8,7 +8,7 @@ description: A brief overview of how our server is configured.
 
 ## Setup
 
-We are using express.js for our server itself.  The server is has three possible configurations-- public and internal as routes \(`/api` and `/internal`\)  or just public or internal on the root path `/`
+We are using express.js for our server itself.  The server has three possible configurations-- public and internal as routes \(`/api` and `/internal`\)  or just public or internal on the root path `/`
 
 You can see how this setup works from the code here: [https://gitlab.com/hyrecar-dev/backend-v2/services/blob/master/services/gateway/src/app.ts](https://gitlab.com/hyrecar-dev/backend-v2/services/blob/master/services/gateway/src/app.ts)
 

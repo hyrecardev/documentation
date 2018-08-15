@@ -2,15 +2,15 @@
 description: An overview of the authentication flow.
 ---
 
-# Authentication \(Auth0\)
-
-{% embed data="{\"url\":\"https://auth0.com/docs\",\"type\":\"link\",\"title\":\"Auth0 Docs\",\"description\":\"Get started using Auth0. Implement authentication for any kind of application in minutes.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn2.auth0.com/styleguide/latest/lib/logos/img/favicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn2.auth0.com/docs/media/social-media/fb-card.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+# Authentication Flow
 
 ![We need to digitize this](../.gitbook/assets/img_20180815_111648.jpg)
 
 ## Auth0
 
 Auth0 is primarily responsible for our security. It authenticates the users and issues the JWT tokens for our frontend clients to make authenticated requests to our APIs.
+
+{% embed data="{\"url\":\"https://auth0.com/docs\",\"type\":\"link\",\"title\":\"Auth0 Docs\",\"description\":\"Get started using Auth0. Implement authentication for any kind of application in minutes.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn2.auth0.com/styleguide/latest/lib/logos/img/favicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn2.auth0.com/docs/media/social-media/fb-card.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 ### Rules
 
