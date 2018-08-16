@@ -18,23 +18,23 @@ We use Auth0 rules which are deployed via the Gitlab plugin on Auth0. The plugin
 
 ## Graphql Server
 
-When a request hits our server, a few things happen:
+When a request hits our server will go through the following middleware before reaching the graphql API code:
 
 ### Step 1: Validate the JWT token
 
 The `express-jwt` plugin validates the JWT token sent by our frontend clients and adds a `user` attribute with the token's payload to the express request object.
 
-### Step 2: Check scopes \(internal server only\)
+### Step 2: Get `currentUser`
 
-For the Internal API endpoint, we can receive two types of tokens \(machine-to-machine or normal user\). In either case, the next express middleware checks the scopes or user roles to make sure they have the appropriate permissions.
-
-### Step 3: Get `currentUser`
-
-The final middleware on both of the server types will use the `user` attribute exposed from step 1:
+This middleware will use the `user` attribute exposed from step 1 and:
 
 * If user details are included in the payload, it exposes that as the `currentUser`.
 * If no user data is in the payload, it will retrieve the user from our database by their Auth0 userId \(which we store as part of the user table\) or email address and returns that as the `currentUser`.
 * If no such user exists, then it is a new user. We fetch additional user details directly from Auth0 \(which has their enriched profile data\) and add them to our database and return the newly created user as `currentUser`.
+
+### Step 3: Check scopes \(internal server only\)
+
+For the Internal API endpoint, we can receive two types of tokens \(machine-to-machine or normal user\). In either case, this middleware checks the scopes or user roles to make sure they have the appropriate permissions.
 
 ### Step 4: Execute schema code
 
