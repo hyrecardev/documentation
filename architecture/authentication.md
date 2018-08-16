@@ -14,11 +14,11 @@ Auth0 is primarily responsible for our security. It authenticates the users and 
 
 ### Rules
 
-We use Auth0 rules which are deployed via the Gitlab plugin on Auth0. The plugin syncs any changes in gitlab to the staging and production branches to their respective tenant. We primarily use rules to enrich the customer profile for when they sign up as well as to retrieve basic user data to include as part of the JWT payload.
+We primarily use Auth0 rules to enrich the customer profile for when they sign up as well as to retrieve basic user data to include as part of the JWT payload. These rules are deployed via the Gitlab plugin on Auth0 to sync any changes in the repo on the staging and production branches to their respective tenant. 
 
 ## Graphql Server
 
-When a request hits our server will go through the following middleware before reaching the graphql API code:
+When a request hits our server, it will go through the following middleware before reaching the graphql API code:
 
 ### Step 1: Validate the JWT token
 
