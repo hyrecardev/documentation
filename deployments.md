@@ -2,7 +2,7 @@
 description: An overview of each elastic beanstalk deployment and what it is.
 ---
 
-# Deployments
+# Elastic Beanstalk Deployments
 
 ## graphql-rest-wrapper
 

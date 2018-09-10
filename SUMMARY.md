@@ -22,5 +22,5 @@
   * [Development Flow](tutorials/development-flow.md)
 * [Useful Tools](useful-tools/README.md)
   * [GraphQL IDEs](useful-tools/graphql-ides.md)
-* [Deployments](deployments.md)
+* [Elastic Beanstalk Deployments](deployments.md)
 
