@@ -8,7 +8,7 @@ There are a few key packages in the services monorepo which we need to keep upda
 
 ## Root Packages
 
-### [prisma](https://github.com/prisma/prisma) \(current: v1.7.3\)
+### \*[prisma](https://github.com/prisma/prisma) \(current: v1.7.3\)
 
 [https://www.prisma.io/docs/maintain/](https://www.prisma.io/docs/maintain/)
 
@@ -18,7 +18,7 @@ There are a few key packages in the services monorepo which we need to keep upda
 
 Service-level packages are packages installed on each individual packages. If we need to upgrade these, we need to upgrade on each service.
 
-### [prisma-binding](https://github.com/prisma/prisma-binding) \(current: v2.0.1\)
+### \*[prisma-binding](https://github.com/prisma/prisma-binding) \(current: v2.0.1\)
 
 ### [graphql-binding](https://github.com/graphql-binding/graphql-binding) \(current: 2.1.0\)
 
