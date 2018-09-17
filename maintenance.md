@@ -24,3 +24,9 @@ Service-level packages are packages installed on each individual packages. If we
 
 ### [graphql](https://github.com/graphql/graphql-js) \(current: v0.13.2\)
 
+## 3rd Party Services
+
+### [api2pdf](https://www.api2pdf.com/)
+
+Used to generate pdfs of rental contracts. We setup up auto payment, but it is a good idea to keep an eye on this once in a while to make sure the payment balance is above $0.
+
