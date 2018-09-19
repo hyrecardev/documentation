@@ -20,6 +20,7 @@
   * [Deploying to a database](tutorials/deploying-to-a-database.md)
   * [Installing other packages from the monorepo](tutorials/installing-other-packages-from-the-monorepo.md)
   * [Development Flow](tutorials/development-flow.md)
+  * [Transforming the Public Schema](tutorials/transforming-the-public-schema.md)
 * [Useful Tools](useful-tools/README.md)
   * [GraphQL IDEs](useful-tools/graphql-ides.md)
 * [Elastic Beanstalk Deployments](deployments.md)
