@@ -4,7 +4,7 @@ description: An overview of the authentication flow.
 
 # Authentication Flow
 
-![We need to digitize this](../.gitbook/assets/img_20180815_111648.jpg)
+![We need to digitize this](../../.gitbook/assets/img_20180815_111648.jpg)
 
 ## Auth0
 

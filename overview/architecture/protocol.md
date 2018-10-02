@@ -26,7 +26,7 @@ Because of this, it's extremely important that your new branch is created off of
 
 If there is already an issue in GitLab for the feature you are working on like this:
 
-![](../.gitbook/assets/screen-shot-2018-08-13-at-6.29.57-pm.png)
+![](../../.gitbook/assets/screen-shot-2018-08-13-at-6.29.57-pm.png)
 
 You can click the "Create merge request" button and it will automatically create a branch and merge request and link them to the issue.  
 

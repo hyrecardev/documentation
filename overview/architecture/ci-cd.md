@@ -19,15 +19,15 @@ I will show the steps for deploying the staging server. We follow the same steps
 
 ### Step 1.1: Build
 
-![](../.gitbook/assets/screen-shot-2018-08-15-at-12.23.12-pm.png)
+![](../../.gitbook/assets/screen-shot-2018-08-15-at-12.23.12-pm.png)
 
 ### Step 1.2: Deploy now.sh
 
-![](../.gitbook/assets/screen-shot-2018-08-15-at-12.26.52-pm.png)
+![](../../.gitbook/assets/screen-shot-2018-08-15-at-12.26.52-pm.png)
 
 ### Step 2: Deploy to internal and public servers
 
-![](../.gitbook/assets/screen-shot-2018-08-15-at-12.26.52-pm.png)
+![](../../.gitbook/assets/screen-shot-2018-08-15-at-12.26.52-pm.png)
 
 
 
