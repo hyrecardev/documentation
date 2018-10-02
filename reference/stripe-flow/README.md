@@ -1,5 +1,5 @@
 ---
-description: How the different processes for involving stripe work
+description: How the different processes involving stripe work
 ---
 
 # Stripe Flow
